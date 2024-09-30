@@ -33,6 +33,7 @@ aside {
     text-align: center;
 }
 aside img {
+    /* Adjusts the size of the aside image */
     width: 200px;
     height: auto;
     box-shadow: 0 0 5px white;
