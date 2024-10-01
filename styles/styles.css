@@ -1,19 +1,25 @@
+:root {
+    --background-color: steelblue;
+    --color: #feffec;
+    --border-color: black;
+
+}
 nav {
-    background-color: steelblue;
+    background-color: var(--background-color);
     padding: 10px;
 }
 nav a {
-    color: white;
+    color: var(--color);
     display: block;
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: var(--background-color);
 }
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--background-color);
     padding: 2px;
     box-shadow: 0 0 30px grey;
 }
@@ -26,20 +32,20 @@ main {
 aside {
     width: 16rem;
     margin: .5rem;
-    border: 4px solid rgba(0,0,0,0.3);
+    border: 4px solid var(--border-color);
     padding: 1rem;
     background-color: #301934;
-    color: #feffec;
+    color: var(--color);
     text-align: center;
 }
 aside img {
     /* Adjusts the size of the aside image */
     width: 200px;
     height: auto;
-    box-shadow: 0 0 5px white;
+    box-shadow: 0 0 5px var(--color);
 }
 footer {
     margin-top: 2rem;
-    border-top: 2px solid;
+    border-top: 2px solid var(--border-color);
     text-align: center;
 }
